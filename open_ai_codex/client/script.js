@@ -104,7 +104,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from sever -> AI's response 
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://codex-yub6.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
